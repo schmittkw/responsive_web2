@@ -119,6 +119,7 @@ section.third-section img {
 }
 footer {
     background: black;
+    vertical-align: bottom;
 }
 footer p {
     text-align: center;
