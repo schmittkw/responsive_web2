@@ -119,7 +119,6 @@ section.third-section img {
 }
 footer {
     background: black;
-    vertical-align: bottom;
 }
 footer p {
     text-align: center;
@@ -297,5 +296,13 @@ section.services div.standard h3 {
     }
     section.services div ul {
         width: 100%;
+    }
+    section.services {
+        height: 680px;
+    }
+}
+@media only screen and (min-width: 1025px){
+    section.services {
+        height: 715px;
     }
 }
