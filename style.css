@@ -300,9 +300,12 @@ section.services div.standard h3 {
     section.services {
         height: 680px;
     }
+    /* .wrapper{
+        min-height: 100vh;
+    } */
 }
 @media only screen and (min-width: 1025px){
-    section.services {
-        height: 715px;
+    .wrapper {
+        min-height: 90vh;
     }
 }
